@@ -1,0 +1,4 @@
+dev-lang/php bcmath bzip2 calendar ctype curl debug embed exif ffi fileinfo filter fpm gd gmp iconv imap inifile instant-client intl ipv6 json ldap kerberos mhash mysql mysqli odbc opcache pcntl pdo phar phpdbg posix postgres readline session simplexml soap sockets sodium spell sqlite ssl sysvipc tidy tokenizer truetype unicode webp xml xmlreader xmlrpc xmlwriter xpm xslt zip zlib
+app-eselect/eselect-php fpm
+virtual/imap-c-client kerberos
+net-libs/c-client kerberos

@@ -1,0 +1,5 @@
+# required by app-benchmarks/geekbench (argument)
+>=app-benchmarks/geekbench-5.2.0 geekbench
+# required by media-video/nvidia-video-codec-8.2.16::gentoo
+# required by media-video/nvidia-video-codec (argument)
+>=dev-util/nvidia-cuda-toolkit-10.2.89-r1 NVIDIA-CUDA

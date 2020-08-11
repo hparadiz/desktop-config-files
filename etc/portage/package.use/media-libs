@@ -1,0 +1,4 @@
+>=media-libs/speex-1.2.0-r1 abi_x86_32
+>=media-libs/speexdsp-1.2_rc3-r2 abi_x86_32
+>=media-sound/gsm-1.0.13-r1 abi_x86_32
+

@@ -1,0 +1,2 @@
+>=net-misc/spice-gtk-0.37-r2 usbredir
+app-emulation/qemu ssh png python oss opengl nfs jpeg curl usbredir spice

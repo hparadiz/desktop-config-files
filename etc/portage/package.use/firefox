@@ -1,0 +1,13 @@
+www-client/firefox hwaccel lto pgo clang
+# package.use# required by www-client/firefox-68.6.0-r1::gentoo[system-libvpx]
+# required by firefox (argument)
+>=media-libs/libvpx-1.7.0-r1 postproc
+# required by www-client/firefox-68.6.0-r1::gentoo[system-sqlite]
+# required by firefox (argument)
+>=dev-db/sqlite-3.31.1 secure-delete
+# required by net-libs/nghttp2-1.39.2::gentoo[-libressl,cxx,-utils]
+# required by net-libs/nodejs-12.14.0::gentoo
+# required by www-client/firefox-68.6.0-r1::gentoo
+# required by firefox (argument)
+>=x11-libs/libdrm-2.4.100 video_cards_nouveau video_cards_radeon video_cards_amdgpu
+

@@ -1,0 +1,239 @@
+>sys-kernel/gentoo-kernel-bin-5.5.9
+# required by x11-libs/libSM-1.2.3::gentoo[uuid]
+# required by media-sound/pulseaudio-13.0::gentoo[X]
+# required by media-plugins/gst-plugins-pulse-1.16.2::gentoo
+# required by net-misc/spice-gtk-0.38::gentoo[pulseaudio]
+# required by app-emulation/virt-manager-2.2.1-r3::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=sys-apps/util-linux-2.35.1-r2 abi_x86_32 caps
+# required by x11-libs/gtk+-2.24.32-r1::gentoo[cups]
+# required by dev-java/icedtea-bin-3.16.0::gentoo[gtk]
+# required by virtual/jdk-1.8.0-r4::gentoo
+# required by dev-java/gradle-bin-6.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-print/cups-2.3.3-r1 abi_x86_32
+# required by x11-libs/cairo-1.16.0-r3::gentoo[opengl]
+# required by dev-java/icedtea-bin-3.16.0::gentoo[gtk]
+# required by virtual/jdk-1.8.0-r4::gentoo
+# required by dev-java/gradle-bin-6.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/mesa-20.1.0_rc3 abi_x86_32
+# required by net-libs/gnutls-3.6.13::gentoo
+# required by net-mail/mailutils-3.9::gentoo[ssl]
+# required by virtual/mailx-2::gentoo
+# required by sys-apps/smartmontools-7.1::gentoo
+# required by @selected
+# required by @world (argument)
+=dev-libs/nettle-3.5.1-r1 abi_x86_32
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[gtk]
+# required by virtual/jdk-1.8.0-r4::gentoo
+# required by dev-java/gradle-bin-6.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/harfbuzz-2.6.6 abi_x86_32
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[gtk]
+# required by virtual/jdk-1.8.0-r4::gentoo
+# required by dev-java/gradle-bin-6.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/freetype-2.10.2-r1 abi_x86_32
+# required by media-sound/pulseaudio-13.0::gentoo[caps]
+# required by media-plugins/gst-plugins-pulse-1.16.2::gentoo
+# required by net-misc/spice-gtk-0.38::gentoo[pulseaudio]
+# required by app-emulation/virt-manager-2.2.1-r3::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/libcap-2.34 abi_x86_32
+# required by media-plugins/alsa-plugins-1.2.2::gentoo
+# required by media-sound/pulseaudio-13.0::gentoo[alsa-plugin,alsa]
+# required by media-plugins/gst-plugins-pulse-1.16.2::gentoo
+# required by net-misc/spice-gtk-0.38::gentoo[pulseaudio]
+# required by app-emulation/virt-manager-2.2.1-r3::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=media-libs/alsa-lib-1.2.2-r1 abi_x86_32
+# required by app-emulation/wine-staging-5.8::gentoo[ldap]
+# required by @selected
+# required by @world (argument)
+>=net-nds/openldap-2.4.50 abi_x86_32
+# required by app-emulation/wine-staging-5.8::gentoo[vaapi]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libva-2.7.1 abi_x86_32
+# required by app-emulation/vkd3d-1.1::gentoo
+# required by app-emulation/wine-staging-5.8::gentoo[vkd3d]
+# required by @selected
+# required by @world (argument)
+>=media-libs/vulkan-loader-1.2.137 abi_x86_32
+# required by dev-libs/libxml2-2.9.9-r3::gentoo[icu]
+# required by app-emulation/virt-manager-2.2.1-r3::gentoo[python_single_target_python3_7]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/icu-67.1 abi_x86_32
+# required by sys-libs/pam-1.3.1_p20200128-r1::gentoo
+# required by sys-apps/util-linux-2.35.1-r2::gentoo[pam]
+# required by dev-lang/python-3.9.0_alpha6::gentoo
+# required by @selected
+# required by @world (argument)
+>=virtual/libcrypt-1-r1 abi_x86_32
+# required by dev-libs/libxml2-2.9.9-r3::gentoo
+# required by dev-qt/qtwebkit-5.212.0_pre20200309-r1::gentoo
+# required by @__auto_slot_operator_replace_installed__ (argument)
+=dev-libs/icu-66.1 abi_x86_32
+# required by sys-devel/llvm-10.0.0::gentoo
+# required by media-libs/mesa-20.1.0_rc3::gentoo[gallium,-video_cards_r600,-video_cards_radeonsi,-opencl,llvm,-video_cards_radeon]
+# required by app-emulation/qemu-5.0.0::gentoo[opengl,-static]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libxml2-2.9.9-r3 abi_x86_32
+# required by net-libs/gnutls-3.6.13::gentoo
+# required by media-video/vlc-3.0.10-r1::gentoo[ssl]
+# required by media-video/obs-studio-25.0.8-r1::gentoo[vlc]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/nettle-3.6-r2 abi_x86_32
+# required by www-client/firefox-76.0.1::gentoo[wayland]
+# required by firefox (argument)
+>=x11-libs/gtk+-3.24.20 wayland
+# required by x11-libs/gtk+-3.24.20::gentoo[wayland]
+# required by www-client/firefox-76.0.1::gentoo[wayland]
+# required by firefox (argument)
+>=x11-libs/libxkbcommon-0.10.0 abi_x86_32
+# required by x11-libs/pango-1.42.4-r2::gentoo
+# required by dev-db/mysql-workbench-8.0.20::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/glib-2.64.3 abi_x86_32
+# required by media-libs/libsdl2-2.0.12-r1::gentoo[dbus]
+# required by app-emulation/wine-staging-5.10::gentoo[sdl]
+# required by @selected
+# required by @world (argument)
+>=sys-apps/dbus-1.12.18 abi_x86_32
+# required by net-print/cups-2.3.3-r1::gentoo[ssl]
+# required by dev-java/icedtea-bin-3.16.0::gentoo[cups]
+# required by virtual/jdk-1.8.0-r4::gentoo
+# required by dev-java/swt-3.7.2-r3::gentoo
+# required by dev-util/android-sdk-update-manager-24.4.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=net-libs/gnutls-3.6.14 abi_x86_32
+# required by x11-libs/cairo-1.16.0-r3::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[gtk]
+# required by virtual/jdk-1.8.0-r4::gentoo
+# required by dev-java/swt-3.7.2-r3::gentoo
+# required by dev-util/android-sdk-update-manager-24.4.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-libs/binutils-libs-2.34-r1 abi_x86_32
+# required by media-libs/mesa-20.1.1::gentoo
+# required by media-libs/gst-plugins-base-1.16.2::gentoo[opengl,-gles2]
+# required by media-libs/gst-plugins-good-1.16.2::gentoo
+# required by media-plugins/gst-plugins-pulse-1.16.2::gentoo
+# required by net-misc/spice-gtk-0.38::gentoo[pulseaudio]
+# required by app-emulation/virt-manager-2.2.1-r3::gentoo[gtk]
+# required by @selected
+# required by @world (argument)
+>=x11-libs/libdrm-2.4.102 abi_x86_32
+# required by games-emulation/pcsx2-1.6.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/portaudio-19.06.00-r3 abi_x86_32
+# required by virtual/pkgconfig-1::gentoo
+# required by net-print/cups-2.3.3-r1::gentoo
+# required by dev-java/icedtea-bin-3.16.0::gentoo[cups]
+# required by virtual/jdk-1.8.0-r4::gentoo
+# required by dev-java/swt-3.7.2-r3::gentoo
+# required by dev-util/android-sdk-update-manager-24.4.1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-util/pkgconf-1.7.3 abi_x86_32
+# required by x11-libs/wxGTK-3.0.4-r302::gentoo
+# required by games-emulation/pcsx2-1.6.0::gentoo
+# required by @selected
+# required by @world (argument)
+>=virtual/jpeg-100 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[dv]
+# required by media-plugins/gst-plugins-meta (argument)
+>=media-plugins/gst-plugins-dv-1.16.2 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[dvb]
+# required by media-plugins/gst-plugins-meta (argument)
+>=media-plugins/gst-plugins-dvb-1.16.2 abi_x86_32
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[vaapi]
+# required by media-plugins/gst-plugins-meta (argument)
+>=media-plugins/gst-plugins-vaapi-1.16.2 abi_x86_32
+# required by media-plugins/gst-plugins-dv-1.16.2::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[dv]
+# required by media-plugins/gst-plugins-meta (argument)
+>=media-libs/libdv-1.0.0-r4 abi_x86_32
+# required by www-client/firefox-77.0.1::gentoo[pgo]
+# required by @selected
+# required by @world (argument)
+>=x11-base/xorg-server-1.20.8 xvfb
+# required by www-client/firefox-77.0.1::gentoo[clang]
+# required by @selected
+# required by @world (argument)
+>=sys-devel/llvm-10.0.0 gold
+# required by www-client/firefox-77.0.1::gentoo[clang]
+# required by www-client/firefox (argument)
+>=sys-devel/llvm-9.0.1:9 gold
+# required by dev-util/nvidia-cuda-toolkit-10.2.89-r1::gentoo
+# required by media-video/nvidia-video-codec-8.2.16::gentoo
+# required by media-video/nvidia-video-codec (argument)
+>=x11-drivers/nvidia-drivers-440.82-r3 uvm
+# required by x11-libs/gtk+-2.24.32-r1::gentoo
+# required by media-gfx/gimp-2.10.20::gentoo
+# required by @selected
+# required by @world (argument)
+>=x11-libs/cairo-1.16.0-r4 abi_x86_32
+# required by sys-devel/llvm-10.0.0::gentoo[libffi]
+# required by media-libs/mesa-20.1.3::gentoo[-video_cards_radeonsi,llvm,-video_cards_r600,gallium,-video_cards_radeon,-opencl]
+# required by app-emulation/qemu-5.0.0-r1::gentoo[-static,opengl]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/libffi-3.3-r2 abi_x86_32
+# required by sys-libs/libcap-2.38::gentoo[pam]
+# required by app-emulation/qemu-5.0.0-r1::gentoo[-virtfs,-static,filecaps]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/pam-1.4.0-r2 abi_x86_32
+# required by media-libs/mesa-20.1.3::gentoo[libglvnd]
+# required by app-emulation/qemu-5.0.0-r1::gentoo[-static,opengl]
+# required by @selected
+# required by @world (argument)
+>=media-libs/libglvnd-1.3.2 abi_x86_32
+# required by media-libs/libtheora-1.1.1-r2::gentoo[encode]
+# required by media-video/ffmpeg-4.3-r1::gentoo[theora,encode]
+# required by kde-apps/ffmpegthumbs-20.04.3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libvorbis-1.3.7 abi_x86_32
+# required by media-libs/gst-plugins-base-1.16.2::gentoo[-gles2,opengl]
+# required by media-plugins/gst-plugins-cdparanoia-1.16.2::gentoo
+# required by media-plugins/gst-plugins-meta-1.16.2::gentoo[cdda]
+# required by @selected
+# required by @world (argument)
+>=media-libs/graphene-1.10.2 abi_x86_32
+# required by media-libs/mesa-20.1.3::gentoo[zstd]
+# required by app-emulation/qemu-5.0.0-r1::gentoo[-static,opengl]
+# required by @selected
+# required by @world (argument)
+>=app-arch/zstd-1.4.5 abi_x86_32
+# required by virtual/jpeg-100::gentoo
+# required by net-libs/libvncserver-0.9.13::gentoo[jpeg]
+# required by x11-misc/x11vnc-0.9.16-r3::gentoo
+# required by @selected
+# required by @world (argument)
+>=media-libs/libjpeg-turbo-2.0.5 abi_x86_32
+# required by media-libs/mesa-20.1.3::gentoo[-opencl,llvm,-video_cards_radeon,-video_cards_radeonsi,gallium,-video_cards_r600]
+# required by app-emulation/qemu-5.0.0-r1::gentoo[opengl,-static]
+# required by @selected
+# required by @world (argument)
+>=sys-devel/llvm-10.0.0 abi_x86_32
+# required by net-p2p/bitcoin-qt-0.20.0::gentoo[wallet]
+# required by net-p2p/bitcoin-qt (argument)
+>=sys-libs/db-4.8.30-r3:4.8 cxx

@@ -1,0 +1,2 @@
+>=x11-libs/libxcb-1.14 abi_x86_32
+media-libs/mesa X classic dri3 egl gallium gbm gles2 libglvnd llvm wayland zstd -vaapi -vulkan
